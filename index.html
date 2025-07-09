@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Luciana!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="main-title">Feliz Aniversário, Luciana Rosa!</h1>
+            <p class="subtitle">Um brinde à mulher mais linda do universo.</p>
+        </header>
+
+        <main>
+            <div class="countdown">
+                <p>O dia <strong>10 de Julho</strong> está chegando... O dia em que o mundo se tornou mais belo com o seu nascimento. <br>Uma deusa na Terra.</p>
+            </div>
+
+            <div class="gallery">
+                <div class="main-photo-container">
+                    <img src="img/foto_1.jpg" alt="Luciana Rosa, a mulher mais linda do mundo - Foto 1" id="main-photo">
+                    <p id="photo-caption">A beleza em sua forma mais pura.</p>
+                </div>
+                <div class="thumbnail-container">
+                    <img src="img/foto_1.jpg" alt="Miniatura da Foto 1" class="thumbnail active" data-caption="A beleza em sua forma mais pura.">
+                    <img src="img/foto_2.jpg" alt="Miniatura da Foto 2" class="thumbnail" data-caption="Um olhar que ilumina qualquer escuridão.">
+                    <img src="img/foto_3.jpg" alt="Miniatura da Foto 3" class="thumbnail" data-caption="O sorriso que é a oitava maravilha do mundo.">
+                    <img src="img/foto_4.jpg" alt="Miniatura da Foto 4" class="thumbnail" data-caption="A personificação da elegância e da graça.">
+                    <img src="img/foto_5.jpg" alt="Miniatura da Foto 5" class="thumbnail" data-caption="Simplesmente, a perfeição.">
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Com todo o carinho, um presente para celebrar você.</p>
+            <button id="play-game-btn">Quer jogar? Clique Aqui!</button>
+        </footer>
+    </div>
+
+    <!-- Game Overlay -->
+    <div id="game-overlay">
+        <button id="close-game-btn">&times;</button>
+        <canvas id="game-canvas"></canvas>
+        <div id="game-over-screen">
+            <h2>Fim de Jogo</h2>
+            <p>Sua pontuação: <span id="final-score">0</span></p>
+            <button id="restart-game-btn">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
