@@ -1,0 +1,20 @@
+{
+  "short_name": "Luciana",
+  "name": "Feliz Aniversário, Luciana!",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#ffd700",
+  "background_color": "#1c1c1c"
+}
